@@ -21,7 +21,6 @@ steps:
   - apply
   - -auto-approve
   - -input=false
-  - tfplan
 logsBucket: 'gs://tfstate-demoterraform'
 options:
   logging: GCS_ONLY

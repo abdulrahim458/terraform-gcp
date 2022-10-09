@@ -42,7 +42,7 @@ resource "google_service_account_iam_member" "terraform-account-iam" {
   ])
   service_account_id = google_service_account.abdul.name
   role               = each.key
-  member = "serviceAccount:${google_service_account.sa.email}"
+  member = "serviceAccount:${google_service_account.abdul.email}"
 }
 
 

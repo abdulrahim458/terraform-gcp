@@ -18,7 +18,7 @@ resource "google_compute_target_http_proxy" "target_http_proxy" {
 # defines a group of virtual machines that will serve traffic for load balancing
 resource "google_compute_backend_service" "backend_service" {
   name                    = "${var.app_name}-${var.app_environment}-backend-service"
-  project                 = "${var.gcp_project}"
+  project                 = var.gcp_project
   port_name               = "http"
   protocol                = "HTTP"
   load_balancing_scheme   = "EXTERNAL"
@@ -34,7 +34,7 @@ resource "google_compute_backend_service" "backend_service" {
 # creates a group of virtual machine instances
 resource "google_compute_instance_group_manager" "web_private_group" {
   name                 = "${var.app_name}-${var.app_environment}-vm-group"
-  project              = "${var.gcp_project}"
+  project              = var.gcp_project
   base_instance_name   = "${var.app_name}-${var.app_environment}-web"
   zone                 = var.gcp_zone_1
   version {

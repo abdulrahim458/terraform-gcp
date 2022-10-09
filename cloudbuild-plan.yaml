@@ -2,20 +2,20 @@ timeout: 1200s
 steps:
 # terraform init -input=false
 - id: init_infrastructure
-  name: gcr.ip/$PROJECT_ID/terraform-cloudbuilder:latest
+  name: gcr.io/$PROJECT_ID/terraform-cloudbuilder:latest
   dir: /workspace/terraform/
   args:
   - init
   - -input=false
 # terraform validate
 - id: validate_infrastructure
-  name: gcr.ip/$PROJECT_ID/terraform-cloudbuilder:latest
+  name: gcr.io/$PROJECT_ID/terraform-cloudbuilder:latest
   dir: /workspace/terraform/
   args:
   - validate
 # terraform plan -input=false -out=tfplan
 - id: plan_infrastructure
-  name: gcr.ip/$PROJECT_ID/terraform-cloudbuilder:latest
+  name: gcr.io/$PROJECT_ID/terraform-cloudbuilder:latest
   dir: /workspace/terraform/
   args:
   - plan

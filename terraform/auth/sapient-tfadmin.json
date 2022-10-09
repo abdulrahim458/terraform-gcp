@@ -1,7 +1,7 @@
 {
-    "client_id": "764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com",
-    "client_secret": "d-FL95Q19q7MQmFpd7hHD0Ty",
-    "quota_project_id": "dark-airway-363408",
-    "refresh_token": "1//0gvPUAfkWPl_VCgYIARAAGBASNwF-L9IroXWBrF049gXNE1BDeCOz7EhGV5l424UTZoOduXeFw5ZnSmt9f7-FMSVkXiFWIKhDNUU",
-    "type": "authorized_user"
-  }
+  "client_id": "764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com",
+  "client_secret": "d-FL95Q19q7MQmFpd7hHD0Ty",
+  "quota_project_id": "internal-interview-candidates",
+  "refresh_token": "1//0gLS6rjtf7nu5CgYIARAAGBASNwF-L9Iriv1bE7Hrv4-RwV7m4ljfnQq4VjbOLxE8ItAmOnpzTOB7GDheVkwWDIID43vRsJEVxww",
+  "type": "authorized_user"
+}

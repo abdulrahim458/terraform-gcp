@@ -31,7 +31,6 @@ steps:
   - -auto-approve
   - -input=false
   - tfplan
-artifacts:
-  objects:
-    location: 'gs://tfstate-demoterraform/cloudbuild/apply/$BUILD_ID'
-    paths: ['cloudbuild-apply.yaml', 'tfplan']
+logsBucket: 'gs://tfstate-demoterraform'
+options:
+  logging: GCS_ONLY

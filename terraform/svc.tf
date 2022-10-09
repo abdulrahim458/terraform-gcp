@@ -18,7 +18,7 @@ resource "google_storage_bucket" "tf-bucket" {
 # Create GCP Service Account 
 
 resource "google_service_account" "abdul" {
-  account_id   = "abdul"
+  account_id   = "abdul-sa"
   display_name = "Terraform Account"
 }
 

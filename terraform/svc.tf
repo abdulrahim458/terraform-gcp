@@ -17,15 +17,15 @@ resource "google_storage_bucket" "tf-bucket" {
 
 # Create GCP Service Account 
 
-resource "google_service_account" "terraform_abdul" {
-  account_id   = "terraform_abdul"
+resource "google_service_account" "abdul" {
+  account_id   = "abdul"
   display_name = "Terraform Account"
 }
 
 # Create GCP Service Account Keys
 
 resource "google_service_account_key" "mykey" {
-  service_account_id = google_service_account.terraform_abdul.name
+  service_account_id = google_service_account.abdul.name
   public_key_type    = "TYPE_X509_PEM_FILE"
 }
 
@@ -40,7 +40,7 @@ resource "google_service_account_iam_member" "terraform-account-iam" {
     "roles/compute.loadBalancerAdmin",
     "roles/iam.service.AccountUser",
   ])
-  service_account_id = google_service_account.terraform_abdul.name
+  service_account_id = google_service_account.abdul.name
   role               = each.key
   member = "serviceAccount:${google_service_account.terraform_abdul.email}"
 }
@@ -48,7 +48,7 @@ resource "google_service_account_iam_member" "terraform-account-iam" {
 
 
 resource "google_service_account_iam_member" "webserver-start-iam" {
-  service_account_id = google_service_account.terraform_abdul.name
+  service_account_id = google_service_account.abdul.name
   role               = "roles/compute.instances.start"
   member = "user:abdulrahim458@gmail.com"
 }
@@ -61,5 +61,5 @@ output "gcp_bucket" {
 
 
 output "gcp_serviceaccount" {
-  value = google_service_account.terraform_abdul
+  value = google_service_account.abdul
 }

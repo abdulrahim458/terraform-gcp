@@ -13,6 +13,16 @@ steps:
   dir: /workspace/terraform/
   args:
   - validate
+# terraform plan -input=false -out=tfplan
+- id: plan_infrastructure
+  name: gcr.io/$PROJECT_ID/terraform-cloudbuilder:latest
+  dir: /workspace/terraform/
+  args:
+  - plan
+  - -input=false
+  - -out=tfplan
+  - -lock=false
+
 # terraform apply -auto-approve -input=false tfplan
 - id: apply_infrastructure
   name: gcr.io/$PROJECT_ID/terraform-cloudbuilder:latest
@@ -21,6 +31,8 @@ steps:
   - apply
   - -auto-approve
   - -input=false
+  - -lock=false
+  - tfplan
 logsBucket: 'gs://tfstate-demoterraform'
 options:
   logging: GCS_ONLY

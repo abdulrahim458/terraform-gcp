@@ -21,7 +21,9 @@ steps:
   - plan
   - -input=false
   - -out=tfplan
-
+logsBucket: 'gs:/cloudbuild-logs-sapient'
+options:
+  logging: GCS_ONLY
 artifacts:
   objects:
     location: 'gs://tfstate-demoterraform/cloudbuild/plan/$BUILD_ID'

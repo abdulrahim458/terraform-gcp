@@ -30,7 +30,7 @@ resource "google_service_account_key" "mykey" {
 }
 
 
-resource "google_service_account_iam_member" "terraform-account-iam" {
+resource "google_project_iam_binding" "terraform-account-iam" {
     for_each = toset([
     "roles/cloudbuild.admin",
     "roles/compute.Admin",
@@ -40,17 +40,20 @@ resource "google_service_account_iam_member" "terraform-account-iam" {
     "roles/compute.loadBalancerAdmin",
     "roles/iam.service.AccountUser",
   ])
-  service_account_id = google_service_account.abdul.name
+  project = var.gcp_project
   role               = each.key
-  member = "serviceAccount:${google_service_account.abdul.email}"
+  members = [
+    "serviceAccount:${google_service_account.abdul.email}"
+  ]
 }
 
 
-
-resource "google_service_account_iam_member" "webserver-start-iam" {
-  service_account_id = google_service_account.abdul.name
+resource "google_project_iam_binding" "webserver-start-iam" {
+  project = var.gcp_project
   role               = "roles/compute.instances.start"
-  member = "user:abdulrahim458@gmail.com"
+  members = [
+    "user:abdulrahim458@gmail.com"
+  ]
 }
 
 output "gcp_bucket" {

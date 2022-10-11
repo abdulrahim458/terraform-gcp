@@ -45,6 +45,12 @@ resource "google_project_iam_member" "terraform-account-iam" {
   member = "serviceAccount:${google_service_account.abdul.email}"
 }
 
+resource "google_project_iam_custom_role" abdul-custom-role" {
+  role_id     = "abdulCustomRole"
+  title       = "Compute instances Custom Role"
+  description = "to restart instances"
+  permissions = ["compute.instances.start", "compute.instances.stop"]
+}
 
 #resource "google_project_iam_binding" "webserver-start-iam" {
 #  project = var.gcp_project

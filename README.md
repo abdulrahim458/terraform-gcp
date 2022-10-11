@@ -4,6 +4,8 @@ VPC
 
 ![VPC](./terraform/vpc.png)
 
+End-Point Output: http://34.107.199.130:8080
+
 
 The script will deploy a load balancer with autoscaling and deploy Ubuntu server with Apache in private subnet, without public ip, inside an managed instance group, using Terraform.
 

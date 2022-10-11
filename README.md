@@ -2,7 +2,7 @@
 
 VPC 
 
-     ![VPC](./terraform/vpc.png)
+![VPC](./terraform/vpc.png)
 
 
 The script will deploy a load balancer with autoscaling and deploy Ubuntu server with Apache in private subnet, without public ip, inside an managed instance group, using Terraform.
@@ -29,6 +29,6 @@ vm.tf --> Template to create a Ubuntu VM with Apache web server
 
 Terraform Apply
 
-![Terraform](./terraform/terraform-apply.pngg)
+![Terraform](./terraform/terraform-apply.png)
 
      

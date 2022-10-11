@@ -7,7 +7,10 @@ VPC
 End-Point Output: http://34.107.199.130:8080
 
 
-The script will deploy a load balancer with autoscaling and deploy Ubuntu server with Apache in private subnet, without public ip, inside an managed instance group, using Terraform.
+The CloudBuild Pipelines will Plan and deploy a load balancer with autoscaling and deploy Ubuntu server with Apache in private subnet, without public ip, inside an managed instance group, using Terraform.
+
+![Terraform](./terraform/cloudbuild-apply.png)
+
 
 lb-managed.tf --> Create managed instance group, backend services and all components required by the load balancer 
 

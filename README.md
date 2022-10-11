@@ -21,11 +21,3 @@ variables-auth.tf --> Application and authentication variables
 vm-output.tf --> Output of VMs 
 
 vm.tf --> Template to create a Ubuntu VM with Apache web server
-
-# Notes
-
-Check list of Google Cloud OS images --> https://cloud.google.com/compute/docs/images
-
-Create the Json file for authentication --> https://cloud.google.com/iam/docs/creating-managing-service-account-keys
-
-Read the post for the repo --> https://medium.com/@gmusumeci/getting-started-with-terraform-and-google-cloud-platform-gcp-deploying-vms-in-a-private-only-f8b5ce7858d8

@@ -29,5 +29,6 @@ vm.tf --> Template to create a Ubuntu VM with Apache web server
 
 Terraform Apply
 
-     ![Terraform Apply](./terraform/terraform-apply.png)
+![Terraform](./terraform/terraform-apply.pngg)
+
      

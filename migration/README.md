@@ -1,3 +1,5 @@
-Cloud Migration
+Cloud Migration Approach
 
-![Migration](./migration.png)
+![Monolith-to-Microservices](./microservices.png)
+
+![Migration-Request-Flow](./migration.png)

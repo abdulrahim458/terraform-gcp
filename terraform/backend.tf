@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 0.12"
   backend "gcs" {
-    bucket  = "tfstate-demoterraform"
+    bucket  = "junaid-demo"
     prefix = "terraform-abdul"
   }
 }

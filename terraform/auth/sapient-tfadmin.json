@@ -1,7 +1,12 @@
 {
-  "client_id": "764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com",
-  "client_secret": "d-FL95Q19q7MQmFpd7hHD0Ty",
-  "quota_project_id": "internal-interview-candidates",
-  "refresh_token": "1//0gLS6rjtf7nu5CgYIARAAGBASNwF-L9Iriv1bE7Hrv4-RwV7m4ljfnQq4VjbOLxE8ItAmOnpzTOB7GDheVkwWDIID43vRsJEVxww",
-  "type": "authorized_user"
+  "type": "service_account",
+  "project_id": "dark-airway-363408",
+  "private_key_id": "400b3ea7104f2291f8e96b0e295832abb1d2dfff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcXDmdBAGYjVd7\nU3KTF1uxfAUHdgnMqCUEKLL9jp7X1g3+Z9NrhUw8fwRjsmG/FxOdSfGlwKkNfNPt\nAa5q0MvOg2oTAgps6flPgqL7EU0Ryt4gu1sF9wxszArb1gHd/bu00KRkB908r6d0\nsD2609j2SY0jvbbLANYYPMEM5yJd54QOqDeRstz54sB/XzhELqFs44aimzE3Avwk\n4xlqRIGaTebnF5NfD97BG0GmcARww1xpZuAtON9GpZfvMWNxzlhPrO4gqKkvP02d\n+nbQbaL8JiFqUrqRzj5hMswPVjM1+xB332B1tuAgA+blUoMUspVQj1QalhWVQyRD\nLx6bsPntAgMBAAECggEADDhACKVBemZyILhkrOP5dXrpY3vH+NWlMdkY7eckB1eL\nMJ2s03RRoTQw999bPMfIkmsYj6bCqSkQLn8unyVDfAj9D59IGTiTVvWpWI9hzPgJ\nP9rr5gWIZpsdCgpQ0bDhoRoF17c47UXXXSjtz2eyixvSjBYX5iN+e9sYoIDLvtW+\nss/qBnQBcqQt+gf0yaS0NW0wsokb+uPfGljsjXKYSF0YI99z2plDHphA/Zi5C1BI\ngbrWEpUWeJskCu6qxSACalHhZzvsajjM4Q9SFLBgpAKQ+YZqz3DNkp5msYGSjXum\nsOe2Z63ejLKek86YQ0te6x4qgUKVDlaTMjKw0BWT+QKBgQD7BaUmJvOxuGkS6141\nOgezSect8DtvwedCFNkfxjVMFIWJ4HNxPb/uhQahiU5hVwKCYwKFohWad4/lXjYv\nxFTdGcWyiNnGt6zgrLSIdcKS7u/OyQtadfdfUu/0bqheiRoA5SyBvxRAjydajqe4\nXmPaB6tauu7xOk0RG9TUwFTndQKBgQDguuuWYjQgIiNBnNBVFCfALq+gp2YcpK8b\nfBNr2i7SIiKQEA5cIndjONTjUzKIdCiotyOvabhIZ8Z1Zp0mIeTLk/3UH/KNb0Ms\nIQkhcNep8BH+clZolttBXI7cfp6lh19iaFpWziSopeTSv9vL1FLWXr0nCsz20iNZ\nK59R4qhxmQKBgCF/zVxcEmWDQLJ/qqDbz69Di5B74NK3Q89zzM4Ku44dpvyRcZaJ\nMRX5trrUAhvHatRPtkRzLwLgNdncSsrxHoorKFD9JmL4nB+XrLgRTxggvuwPtG4s\nFAkqnk82fU2wakH4U4o1H9TFxfC13Pgj0JuGLn37OGwE5cgEuNBzomEJAoGBAIWE\naJ3jYKbKwXmlCl3R6MAUvMHNUyynZ2YD9KH6ciDkqPZAo9d3nsjzpgAdmQNbSCDd\nFjWMsTFLfqyXt7xFHOMa3Q7foEMJnLYmNn+IxIkxme87zTy8jC2sKTC1hdpAsJoN\n98ZlGYCdd3MDDDpwvnqgtO7ySs5GETxUX4bODFfZAoGBAL5mrQ37y3ngAUmY9eEY\ny+BU2sBoHMS0BcerkR31xDk97EExuZZiTueCdw6YEkLZZ1cIjPT7hd7y9pvEXu9S\nlH6KI1b6nmGx+3XBgA+aU8+0U55rFWfQjSX5xqbOW8kNbc2jDPyjeuSNMKDih8hz\nTPdBTqytSXJ/+dLmnkoWoA5k\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform@dark-airway-363408.iam.gserviceaccount.com",
+  "client_id": "105119019840286878130",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40dark-airway-363408.iam.gserviceaccount.com"
 }

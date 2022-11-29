@@ -33,6 +33,6 @@ steps:
   - -input=false
   - -lock=false
   - tfplan
-logsBucket: 'gs://tfstate-demoterraform'
+logsBucket: 'gs://my-bucket-terraform'
 options:
   logging: GCS_ONLY

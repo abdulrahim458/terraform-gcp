@@ -1,3 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "dark-airwa
+  "project_id": "sunlit-mantra-367318",
+  "private_key_id": "a95d2148d96add8aa2b46f1fcce3c86680e75a15",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPM0Uf6HM2Umjs\nwV0LmEF0RPiqz4nJI2l4j7CbMN99bCpBRFLMd9dGk4+kxOisW4cO+31o8g9ST/zP\n4F8zyOgbiH7KxMD0NFyjqNJNHK8l0hbvFZFRv/levRth2bQ3fqfzRiCFxDjujgiy\ng5HMb5OMv2duPX2MBhlRMIARElua7zNoJ8aVnOKMZaI/OqOeP4l4/OMfFUM/C/+D\noVKui/DtLOaQ+fWQspMSHTYx0oPCx4Mp1EpvIdRcN3xKPKNwjNVBSdl88lYe4Bn6\nY32yZFfO8Bucas/KNyw/wSlhaWAVCxO4TTtLQuq6cJoMoGC4nCWwEHCPaHvud19u\nIQASHHabAgMBAAECggEAEgDJa8lTDBBDBPc+x2gg9SJHske6wsWXP3N0toybjpac\nYUliIa6eqjIzaUShVtXTuViJVVoFkh2twL4lEicjC764uD46PxMMTZK4mxyil0MB\nh8qJnYnJor1ZqLngGnD11NcYslFnWkrwXy+8C6r82LOKIB5VpJn5udU1+3BrPIiO\nFwBe19Bg/rLGEeWGYIPusgetFjPOoci/QylrfyrThzhwAXPcXpIVXhHGXpKS2hdR\nLSChhFCCycop18/BEQl8DK9xUxwLlDIcIlPRHZbnjB3dYarg8Hwf+1U/oNup6TsY\nAt8wFTGYqb7hCCGZoYWPxL7fI69UO6p5B3EJumd5wQKBgQDsm3EOGmmjHfx8hxgX\nd/ZBcqog925cRKl4wRfY64//VtkEpN6lwWE6uA7Ay3oMRUmcuqbiQvOUMMb6FdUH\nPVTW1I+/pk8lXHCamBBSNIkb4FhCK3fTS2UFBQtyYuChaqNcXg/Rav9W+4zfkU1h\nRc+SL+N4bjoQ1EmQXYWr05gDewKBgQDgLs3dj/2EjoFjutITwMJuUJNTjRwRTQsw\nGhj2s16bpHIZMcBEU4+RgA2/4LxqwKKLBEsYMlLTdxbZ14qunKIO9hQPNClL0BJN\nTB5LqZ0VGmw0J8rfVPpiPLzOBb5+ZZsTgDg3MT7z99sL+SkMdyqRcuZJfeBkSLUo\ndUrZNQHfYQKBgQDel5Hxmamd+nzpTlK86W+zvMMPBpg9l57z6nyb52jt5+98rfqE\nZ/wnuLawa/zjBGAvYW3U2PW8iXL4HYfvKqThAtJFk5lL5b5NwhdArwn6PsHpZmlx\nT7G22jsdnqYDVYZgRGGPO6ECXN74CQOKKpoPxpuyVciswnp+pW027HZLdwKBgBsN\nCsJFca3hFDPYgyjnBY8SIfTe/hgIV+VCAOkj07KsMShhHHYiLxy7eu1ATPwEqphj\nuDv/NodVw2gd3hobxGJRxzHedW00ekDhgnZWzSGSwqO4eX5hXqUj9xRVFRtjX0cH\nHcFrK9F8gu367r0WVAig+LC9g6oWK+Xp4VI8VzGBAoGBAM2pcH0wZDL61OiL7uAF\nCbv+eX6d1uFlSCz4TLfWdc9r+ODwnAM8iErMNQ3q7e7YDVlG2gXzaL/AbXSNbeLS\ntLE/PPmv2GA/komoCRTnI0LLZxd6la4NePWx/WtvLNx8ZSh9HsbCalPhS1hRyTWc\nW4pkeTBLmOHKZdDbwBexYTaQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-service-terraform@sunlit-mantra-367318.iam.gserviceaccount.com",
+  "client_id": "116917093716772687102",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-service-terraform%40sunlit-mantra-367318.iam.gserviceaccount.com"
+}

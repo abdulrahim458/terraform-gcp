@@ -6,7 +6,7 @@ app_domain      = "sapient-webserver.com"
 app_node_count  = 2
 
 # GCP Settings
-gcp_project = "internal-interview-candidates"
+gcp_project = "sunlit-mantra-367318"
 gcp_region_1  = "europe-west1"
 gcp_zone_1    = "europe-west1-b"
 gcp_auth_file = "auth/sapient-tfadmin.json"
@@ -15,6 +15,6 @@ gcp_auth_file = "auth/sapient-tfadmin.json"
 private_subnet_cidr_1  = "10.10.1.0/24"
 
 # Bucket
-bucket-name   = "interview-abdul" 
+bucket-name   = "my-bucket-terraform" 
 storage-class = "REGIONAL"
 

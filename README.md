@@ -1,4 +1,5 @@
 # Deploying GCP VMs located in a private subnet, inside a managed instance group, with a load balancer and autoscaling using Terraform
+https://www.figma.com/file/X5VzA4Kgu2Q1euqjO18p9H/CV-%2F-Resume-template-(Community)?node-id=0%3A1&t=tQ78Bg0ivwkjQjYR-0
 
 VPC 
 

@@ -6,7 +6,7 @@ variable "gcp_auth_file" {
   description = "GCP authentication file"
 }
 
-# define GCP project name
+# define GCP project names
 #variable "app_project" {
 #  type = string
 #  description = "GCP project name"

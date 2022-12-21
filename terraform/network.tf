@@ -9,7 +9,7 @@ resource "google_compute_network" "vpc" {
 
 # create private subnet
 resource "google_compute_subnetwork" "private_subnet_1" {
-  provider      = google-beta
+  provider      = "google-beta"
   purpose       = "PRIVATE"
   name          = "${var.app_name}-${var.app_environment}-private-subnet-1"
   ip_cidr_range = var.private_subnet_cidr_1
@@ -19,8 +19,8 @@ resource "google_compute_subnetwork" "private_subnet_1" {
 
 # create a public ip for nat service
 resource "google_compute_address" "nat_ip" {
-  name    = "${var.app_name}-${var.app_environment}-nat-ip"
-  project = var.gcp_project
+  name    = "${var.app_name}-${var.app_environment}-nap-ip"
+  project = var.app_project
   region  = var.gcp_region_1
 }
 

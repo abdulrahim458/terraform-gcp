@@ -29,5 +29,5 @@ resource "google_compute_instance_template" "web_server" {
     create_before_destroy = true
   }
 
-  metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq build-essential apache2; sudo sed -i 's/80/8080/g' /etc/apache2/ports.conf; sudo service apache2 restart"
+  metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq build-essential apache2"
 }
